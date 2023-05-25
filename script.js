@@ -17,9 +17,12 @@ console.log(userLastName)
 
 // asking for favourite color and saving it 
 
-const userFavColor = prompt('when is your birthday?', );
+const userFavColor = prompt('what is your favourite color?','Green' );
 console.log(userFavColor);
 
-// Summing variables
+// Sum of the variables
+
+const password = userFirstName + userLastName + userFavColor;
+console.log(password);
 
 
