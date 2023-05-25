@@ -25,4 +25,7 @@ console.log(userFavColor);
 const password = userFirstName + userLastName + userFavColor;
 console.log(password);
 
+// Inserting result in the element
+
+pw.innerText = password;
 
